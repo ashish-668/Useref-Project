@@ -10,8 +10,11 @@ const AutoFocus = () => {
 
   return (
     <>
-      <section className="bg-pink-200 min-h-100 flex items-center justify-center">
+      <section className="bg-bright-orange/80 min-h-100 flex items-center justify-center">
         <div className="w-full max-w-125 mx-auto px-5">
+            <h2 className="text-3xl text-white/70 leading-150 mb-10 w-full text-center">
+
+            </h2>
           <div className="flex items-center justify-center w-full">
             <input
               type="text"
