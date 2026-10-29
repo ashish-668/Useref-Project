@@ -4,9 +4,9 @@ import React, { useRef, useEffect } from "react";
 const AutoFocus = () => {
   const inputRef = useRef(null);
 
-  useEffect(() => {
-    inputRef.current.focus();
-  }, []);
+  // useEffect(() => {
+  //   inputRef.current.focus();
+  // }, []);
 
   function handleFocus() {
     inputRef.current?.focus();
